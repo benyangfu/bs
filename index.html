@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romeo and Juliet Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        nav {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+
+        .dropdown {
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            min-width: 160px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            display: block;
+            text-align: left;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+            color: #333;
+        }
+        .dropdown-content a:hover {
+            color: gray;
+        }
+        hoverednav:hover{
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        
+        <div class="dropdown">
+            <a href="#">Our Acts</a>
+            <div class="dropdown-content">
+                <a href="#" class="hoverednav">Act 2, Scene 1</a>
+                <a href="#" class="hoverednav">Act 2, Scene 2</a>
+                <a href="#" class="hoverednav">Act 2, Scene 3</a>
+                <a href="#" class="hoverednav">Act 2, Scene 4</a>
+                <a href="#" class="hoverednav">Act 2, Scene 5</a>
+                <a href="#" class="hoverednav">Act 2, Scene 6 </a>
+            </div>
+        </div>
+        
+        <a href="#">Contact</a>
+    </nav>
+
+    <h1>Rizz-eo and Rizz-iet Project</h1>
+</body>
+</html>
